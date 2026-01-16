@@ -1,0 +1,18 @@
+display_brightness_decrement	0x0C00000070 or 0xFF0100000021 or 0x00FF00000005
+display_brightness_increment	0x0C0000006F or 0xFF0100000020 or 0x00FF00000004
+launchpad			0x0C000002A2 or 0xFF0100000004
+mission_control / expose	0xFF0100000010
+spotlight			0x0C00000221 or 0xFF0100000001
+dictation			0x0C000000CF
+do_not_disturb			0x010000009B
+keyboard_brightness_decrement	0xFF00000009
+keyboard_brightness_increment	0xFF00000008
+rewind				0x0C000000B4
+play_or_pause			0x0C000000CD
+fast_forward			0x0C000000B3
+volume_decrement		0x0C000000EA
+volume_increment		0x0C000000E9
+dashboard			0xFF0100000002
+
+взято отсюда: https://github.com/amarsyla/hidutil-key-remapping-generator/issues/33
+генератор plist: https://hidutil-generator.netlify.app/
