@@ -78,3 +78,6 @@ todo
 
 ## `Stats` для отслеживания статистики
 todo
+
+## `CleanMyKeyboard` для прочистки клавиатуры
+todo
